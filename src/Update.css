@@ -1,0 +1,50 @@
+@font-face {
+  font-family: lobster;
+  src: url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+}
+
+.app__update {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload__header {
+  font-family: lobster;
+  text-align: center;
+  color: rgb(17, 16, 16);
+}
+.product__input {
+  padding: 0 3px;
+  height: 30px;
+  color: black;
+  margin-top: 15px;
+}
+
+.image__uploadprogress {
+  width: 100%;
+  color: red;
+  margin-top: 10px;
+}
+
+.modal__name {
+  margin-top: 20px;
+  border: none;
+}
+
+.modal__name:focus-within {
+  border: none;
+}
+
+.imageupload__button {
+  background: none;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 11px;
+  padding: 10px 0px;
+  color: blue;
+}
+
+.imageupload__button:hover {
+  background: blue;
+  color: white;
+}

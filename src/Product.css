@@ -1,0 +1,36 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 10px;
+
+}
+
+.name__product {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.price__product {
+  font-size: 20px;
+  margin-top: -25px;
+}
+
+.product__image {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+
+
+.product button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  transition: 0.25s;
+  margin: 0.5em;
+  padding: 1em 2em;
+}

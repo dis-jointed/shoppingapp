@@ -1,0 +1,44 @@
+.brand__btn{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 70px;
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.menu__btn {
+    background-color: green;
+    margin-left: 10px;
+    border: none;
+    width: 70px;
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.search__btn {
+    background-color: blue;
+    border: none;
+    width: 70px;
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.search__btn:hover {
+    background-color: red;
+}
+
+.brand__btn:hover {
+    background-color: red;
+}
+
+.menu__btn:hover {
+    background-color: red;
+}

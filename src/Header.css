@@ -1,0 +1,40 @@
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  text-align: right;
+}
+
+.header__basket {
+  color: white;
+  left: auto;
+  right: auto;
+  margin-left: 40%;
+}
+.button__login {
+  background: none;
+  width: 200px;
+  height: 30px;
+  right: 0;
+  color: blue;
+  border: 1px solid rgb(47, 47, 194);
+  border-radius: 7px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}
+
+.button__login:hover {
+  color: red;
+  transform: translateY(-5px); 
+}
+
+.name {
+ margin-left: 20px;
+ color: white;
+}
+

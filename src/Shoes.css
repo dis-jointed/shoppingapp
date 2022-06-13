@@ -1,0 +1,43 @@
+.shoes {
+  align-items: center;
+}
+
+.shoes > h1 {
+  font-size: 10vh;
+  color: maroon;
+}
+
+.product__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.product {
+  animation: 1s slide forwards;
+  animation-iteration-count: 1;
+  transition: 1.2s all ease;
+}
+
+.product:hover button,
+.product:focus button {
+  box-shadow: 0 0.5em 0.5em -0.4em maroon;
+  transform: translateY(-0.25em);
+  color: maroon;
+}
+.product:hover img {
+  transform: scale(1.1);
+  transition: 0.8s all ease;
+  position: relative;
+}
+
+@keyframes slide {
+  from {
+    margin-top: -90px;
+    filter: opacity(0);
+  }
+  to {
+    margin-top: 0;
+    filter: opacity(1);
+  }
+}
